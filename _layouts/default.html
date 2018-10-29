@@ -22,20 +22,29 @@
   <body>
   {% if page.url != '/' %}
     <header class="header" role="banner">
-      <h1><a href="{{ site.baseurl }}">Transifex Engineering Manifesto</a></h1>
+      <h1><a href="{{ site.url }}">Transifex Engineering Manifesto</a></h1>
     </header>
   {% else %}
     <header class="header header-home" role="banner">
       <h1>Transifex Engineering Manifesto</h1>
     </header>
   {% endif %}
-    <main id="content" class="main-content" role="main">
-      {{ content }}
-    </main>
+    <div class="wrapper-main clearfix">
+      <aside id="toc" class="toc">
+        <h4 class="toc__title js-toc-title">Page Contents</h4>
+        <ul class="toc__contents js-toc-contents"></ul>
+      </aside>
+      <main id="content" class="main-content js-main" role="main">
+        {{ content }}
+      </main>
+    </div>
     <footer class="footer">
       <span class="site-footer-credits">
         Created by <a href="https://www.transifex.com" target="_blank">Transifex</a> with <a href="https://pages.github.com" target="_blank">GitHub Pages</a>.
       </span>
     </footer>
+    {% if page.url != '/' %}
+    <script src="assets/js/main.js?v=' | append: site.github.build_revision | relative_url }}"></script>
+    {% endif %}
   </body>
 </html>
