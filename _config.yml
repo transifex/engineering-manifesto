@@ -9,6 +9,6 @@ defaults:
       path: ""
     values:
       image:
-        path: /assets/images/default-card.png
+        path: /assets/images/default-card.png?v=1
         height: 720
         width: 720
