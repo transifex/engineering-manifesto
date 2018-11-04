@@ -1,3 +1,7 @@
+---
+title: Privacy considerations
+---
+
 # Privacy considerations
 
 Take into account privacy regulations (e.g. GDPR) in design and review of code. Personal data requires special handling in order to comply with regulations and to respect the rights of data subjects (i.e.the persons that the data refers to). Personal data is any kind of data that can be used alone, or in combination with other data, to identify a physical person. For example the following types of data are classified as personal data:

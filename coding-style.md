@@ -1,3 +1,7 @@
+---
+title: Coding style
+---
+
 {% raw  %}
 # Coding style
 

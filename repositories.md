@@ -1,3 +1,7 @@
+---
+title: Repositories
+---
+
 # Repositories
 
 When setting up a new repository, there are a few things we should keep in mind.

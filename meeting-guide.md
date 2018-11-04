@@ -1,3 +1,7 @@
+---
+title: Meeting guide
+---
+
 # Meeting guide
 
 Purpose of this guide is to present a policy that will help optimize meetings.

@@ -1,3 +1,7 @@
+---
+title: Changelog
+---
+
 # Changelog
 
 In this section we can track changes in more detail. Anyone making a change, either suggested or direct, should add an small update here.

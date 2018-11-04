@@ -1,3 +1,7 @@
+---
+title: Ticket handling
+---
+
 # Ticket handling
 
 ## Workflow

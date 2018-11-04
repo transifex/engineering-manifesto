@@ -1,3 +1,7 @@
+---
+title: Github guide
+---
+
 # Github guide
 
 ## Basics

@@ -1,3 +1,7 @@
+---
+title: Coding best practices
+---
+
 # Coding best practices
 
 This section contains generic guidelines that apply to all code we write, irrespective of the language. They are high-level principles that have to do with our mentality when writing code, not specific technical details.
