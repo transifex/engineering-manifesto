@@ -36,6 +36,9 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: $body-text-color;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 a {
@@ -275,6 +278,7 @@ a {
 }
 
 .wrapper-main {
+  flex: 1;
   @include large {
     max-width: 60rem;
     body.toc-visible & {
@@ -312,6 +316,7 @@ a {
   }
   padding-bottom: 2em;
 }
+
 .toc__contents {
   padding: 0 0 0 1em;
   margin: 0;

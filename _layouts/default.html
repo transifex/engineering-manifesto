@@ -41,13 +41,13 @@
     <footer class="footer">
       <div class="site-footer-credits">
         <p>
-          Created by <a href="https://www.transifex.com" target="_blank">Transifex</a> with <a href="https://pages.github.com" target="_blank">GitHub Pages</a>.<br>
-          <small>The content of this page is licensed under the <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License</a>.</small>
+          Created by <a href="https://www.transifex.com" target="_blank" rel="noreferrer">Transifex</a> with <a href="https://pages.github.com" target="_blank" rel="noreferrer">GitHub Pages</a>.<br>
+          <small>The content of this page is licensed under the <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noreferrer">Creative Commons Attribution 4.0 International License</a>.</small>
         </p>
       </div>
     </footer>
     {% if page.url != '/' %}
-    <script src="assets/js/main.js?v=' | append: site.github.build_revision | relative_url }}"></script>
+    <script src="{{ 'assets/js/main.js?v=' | append: site.github.build_revision | relative_url }}"></script>
     {% endif %}
   </body>
 </html>
