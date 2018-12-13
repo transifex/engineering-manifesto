@@ -12,3 +12,4 @@ defaults:
         path: /assets/images/default-card.png?v=1
         height: 720
         width: 720
+google_analytics: "UA-21799942-2"
